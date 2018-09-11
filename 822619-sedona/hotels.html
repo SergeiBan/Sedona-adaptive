@@ -79,15 +79,14 @@
                 <input type="text" value="3000" name="hotel-choice__to">
               </label>
             </div>
-            <div class="hotel-choice__price-range">
+             <div class="hotel-choice__price-range">
               <span class="visually-hidden">Ползунки выбора диапазона стоимости</span>
-              <svg class="hotel-choice__range" width="317px" height="24px">
-                <line x1="0px" y1="12px" x2="252px" y2="12px" stroke="#ffffff" stroke-width="2px"></line>
-                <line x1="252px" y1="12px" x2="317px" y2="12px" stroke="rgba(255, 255, 255, 0.3)" stroke-width="2px"></line>
-              </svg>
-              <button class="hotel-choice__range-btn hotel-choice__range-btn--left" type="button"></button>
-              <button class="hotel-choice__range-btn hotel-choice__range-btn--right" type="button"></button>
-            </div>
+              <div class="scale">
+                <div class="hotel-choice__price-bar"></div>
+              </div>
+              <div class="hotel-choice__range-btn hotel-choice__range-btn--left"></div>
+              <div class="hotel-choice__range-btn hotel-choice__range-btn--right"></div>
+              </div>
             <button class="hotel-choice__btn" type="submit">Показать</button>
           </div>
         </form>
