@@ -1230,6 +1230,7 @@ a.active:hover {
   cursor: pointer;
   position: absolute;
   top: -9px;
+  box-sizing: content-box;
 }
 
 .hotel-choice__range-btn:hover {
