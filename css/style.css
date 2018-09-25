@@ -724,7 +724,7 @@ input[type=text]::-ms-clear {
   text-align: center;
   margin-bottom: 20px;
   min-width: 0;
-  padding: 6px 0;
+  padding: 8px 0;
   display: flex;
   justify-content: space-around;
   border-radius: 3px;
@@ -801,9 +801,10 @@ input[type=text]::-ms-clear {
   font-family: inherit;
   width: 133px;
   min-height: 32px;
-  padding: 6px;
+  padding: 5px 7px;
   border-radius: 3px;
   margin: 0 auto;
+  transform: translateY(3px);
 }
 
 .hotel-choice__btn:hover {
@@ -1185,6 +1186,7 @@ a.active:hover {
   text-align: center;
   display: flex;
   flex-direction: column;
+  line-height: 0;
 }
 
 .hotel-choice__input span {
