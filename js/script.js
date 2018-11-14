@@ -50,15 +50,3 @@ popup.addEventListener("submit", function (evt) {
     }
   }
 });
-
-function initMap() {
-  var map = new google.maps.Map(document.querySelector(".map"), {
-    zoom: 10,
-    center: {lat: 34.925382, lng: -111.758469},
-    disableDefaultUI: true
-  });
-  var marker = new google.maps.Marker({
-    position: {lat: 34.925382, lng: -111.758469},
-    map: map
-  });
-}
