@@ -1,1 +1,1 @@
-# Sedona-adaptive
+# Sedona-responsive
